@@ -1,0 +1,22 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+:root{
+    --bg: #ffffff;
+  --fg: #111111;
+  --btn-bg: #e5e7eb; 
+  --btn-fg: #111111
+}
+
+.dark{
+  --bg: #111827;      
+  --fg: #ffffff;
+  --btn-bg: #374151;  
+  --btn-fg: #ffffff;
+}
+.light{
+  --bg: #ffffff;      
+  --fg: #111827;
+  --btn-bg: #ffffff;  
+  --btn-fg: #374151;
+}
+
